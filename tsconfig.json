@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "moduleResolution": "Node",
+    "strict": true,
+    "removeComments": false,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "target": "ES6",
+    "module": "ESNext",
+    "outDir": "./dist/esm",
+    "declaration": false
+  },
+  "include": ["./src/**/*"],
+  "exclude": ["node_modules", "dist"]
+}
