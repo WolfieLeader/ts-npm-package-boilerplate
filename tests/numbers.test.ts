@@ -1,7 +1,7 @@
 import { expect, it, describe } from "@jest/globals";
 import PackageName from "../src/index";
 
-describe("Testing PackageName", () => {
+describe("Testing PackageName Numbers", () => {
   it("should add two numbers", () => {
     expect(PackageName.add(1, 2)).toBe(3);
   });
